@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credits</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0f0f0f;
+      color: #e8e8e5;
+      min-height: 100vh;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 3rem 1rem 4rem;
+    }
+
+    .credits-wrap {
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .game-title {
+      font-size: 28px;
+      font-weight: 500;
+      color: #ffffff;
+      letter-spacing: -0.5px;
+      margin-bottom: 4px;
+    }
+
+    .divider {
+      border: none;
+      border-top: 0.5px solid #2a2a28;
+      margin: 2rem 0;
+    }
+
+    .section-label {
+      font-size: 11px;
+      font-weight: 500;
+      color: #555553;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 1rem;
+    }
+
+    .credit-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 6px 0;
+      border-bottom: 0.5px solid #1e1e1c;
+      gap: 1rem;
+    }
+
+    .credit-row:last-child {
+      border-bottom: none;
+    }
+
+    .credit-role {
+      font-size: 13px;
+      color: #888885;
+      flex-shrink: 0;
+    }
+
+    .credit-name {
+      font-size: 14px;
+      font-weight: 500;
+      color: #e8e8e5;
+      text-align: right;
+    }
+
+    .credit-names {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+    }
+
+    .credit-names span {
+      font-size: 14px;
+      font-weight: 500;
+      color: #e8e8e5;
+    }
+
+    .tools-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 0.5rem;
+    }
+
+    .tool-badge {
+      background: #1a1a18;
+      border: 0.5px solid #2a2a28;
+      border-radius: 99px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: #888885;
+    }
+
+    .thanks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 8px;
+      margin-top: 0.5rem;
+    }
+
+    .thanks-item {
+      background: #1a1a18;
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 13px;
+      color: #888885;
+      text-align: center;
+    }
+
+    .footer-note {
+      font-size: 12px;
+      color: #555553;
+      text-align: center;
+      margin-top: 2.5rem;
+      line-height: 1.7;
+    }
+
+    .footer-note a {
+      color: #555553;
+      text-decoration: none;
+      border-bottom: 0.5px solid #333331;
+    }
+
+    .footer-note a:hover {
+      color: #888885;
+      border-bottom-color: #555553;
+    }
+
+    .studio-name {
+      font-weight: 500;
+      color: #aaa9a5;
+    }
+  </style>
+</head>
+<body>
+  <div class="credits-wrap">
+
+    <h1 class="game-title">Credits</h1>
+
+    <hr class="divider">
+
+    <p class="section-label">Development</p>
+    <div class="credit-row">
+      <span class="credit-role">Game design</span>
+      <span class="credit-name">Conrad Mancha</span>
+    </div>
+    <div class="credit-row">
+      <span class="credit-role">3D Modeling &amp; Assets</span>
+      <div class="credit-names">
+        <span>Conrad Mancha</span>
+        <span>Micheal Ghallager</span>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <p class="section-label">Audio</p>
+    <div class="credit-row">
+      <span class="credit-role">Music</span>
+      <span class="credit-name">Conrad Mancha</span>
+    </div>
+
+    <hr class="divider">
+
+    <p class="section-label">Porting &amp; Testing</p>
+    <div class="credit-row">
+      <span class="credit-role">Android port</span>
+      <span class="credit-name">Conrad Mancha</span>
+    </div>
+    <div class="credit-row">
+      <span class="credit-role">iOS port</span>
+      <span class="credit-name">Ian Whitmore</span>
+    </div>
+
+    <hr class="divider">
+
+    <p class="section-label">Tools &amp; tech</p>
+    <div class="tools-list">
+      <span class="tool-badge">Godot 4.7</span>
+      <span class="tool-badge">GDScript</span>
+      <span class="tool-badge">AdMob</span>
+      <span class="tool-badge">Android Studio</span>
+      <span class="tool-badge">Zorin OS</span>
+      <span class="tool-badge">BeepBox</span>
+      <span class="tool-badge">Blender</span>
+    </div>
+
+    <hr class="divider">
+
+ 
+    <hr class="divider">
+
+    <p class="section-label">Legal</p>
+    <div class="credit-row">
+      <span class="credit-role">Libraries</span>
+      <span class="credit-name">godot-admob v7.0</span>
+    </div>
+
+    <p class="footer-note">
+      &copy; 2026 Conrad Mancha. All rights reserved.<br>
+      <a href="mailto:cleangames@yahoo.com">Contact Webmaster</a>
+    </p>
+
+  </div>
+</body>
+</html>
